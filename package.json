@@ -1,0 +1,25 @@
+{
+  "name": "radis-cashing",
+  "version": "1.0.0",
+  "description": "redis cashing project",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon start"
+  },
+  "keywords": [
+    "redis",
+    "node.js",
+    "express"
+  ],
+  "author": "spandan joshi",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "redis": "^3.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
