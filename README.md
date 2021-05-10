@@ -60,8 +60,7 @@ const client = redis.createClient(redis_port)
 Apply cashing in getrepos
 
 ```
-    //redis caching
-    //key,expiretime,value
+    //client.setex(key,expiretime,value)
     client.setex(username,3600,response.data.name);
 ```
  create Middleware for use cashing
